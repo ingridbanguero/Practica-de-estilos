@@ -3,10 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: "Montserrat";
+}
 header{
     background-color:  #E5E5E5;
     padding-top: 21px;
-    margin-bottom: 119px
+    margin-bottom: 119px;
+    background-image: url('/img/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+}
+header nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
 }
 header h1{
     text-align: center;
@@ -15,10 +35,13 @@ header h1{
     padding: 15px 0px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
+    letter-spacing: 6px;
+}
+header div{
+    text-align: center;
 }
 header img{
-    display: block;
-    margin: 0 auto;
+    max-width: 200px;
     margin-bottom: 21px;
 }
 section{
@@ -61,7 +84,11 @@ footer{
 }
 footer p{
     color: #fff;
+    margin-right: 15px;
 }
-footer img{
+footer i{
     margin: 0px 13px;
+    color: #fff;
+    background-color: transparent;
+    font-size: 30px;
 }
