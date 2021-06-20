@@ -10,7 +10,7 @@ header{
     background-color:  #E5E5E5;
     padding-top: 21px;
     margin-bottom: 119px;
-    background-image: url('img/background.jpeg');
+    background-image: url('../img/background.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
